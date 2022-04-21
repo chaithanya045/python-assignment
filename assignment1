@@ -1,0 +1,9 @@
+#my first assignment
+echo hello,please give your file
+read file
+find $file
+zcat $file>renamedone
+wc -l renamedone
+sort renamedone|uniq -d>unique.txt
+ln unique.txt /tmp>final.txt 
+
