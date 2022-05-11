@@ -1,11 +1,8 @@
 # python-assignment
 
 1)**for listing the contents of the file**
-
-import boto3                         (#imported the boto3 module for connecting to s3)
-s3 = boto3.resource('s3')
-for bucket in s3.buckets.all():      (#for printing all the bucketnames in my s3 )
-  print(bucket.name)
+ (#imported the boto3 module for connecting to s3)
+  (#for loop is used to print all the bucketnames in my s3)                     
   
   
 2)**File operations(Uploading,deleting the files)**
