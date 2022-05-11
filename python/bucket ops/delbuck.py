@@ -1,5 +1,4 @@
-from pydoc import cli
-from urllib import response
+
 import boto3
 client=boto3.client('s3')
 bucket='my-pyth-bucket123491'
